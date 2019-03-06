@@ -1,3 +1,6 @@
+casks:
+- iterm2
+
 formulas:
 - ansible
 - aria2
