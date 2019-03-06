@@ -12,8 +12,14 @@ casks:
 - gitkraken
 - kaleidoscope
 
-
 formulas:
+- httpie
 - chtf
 - docker-completion
 - awscli
+- bash-completion
+- git
+- dkanejs/aws-session-manager-plugin/aws-session-manager-plugin
+
+symlinks:
+  bash/.*: "~"

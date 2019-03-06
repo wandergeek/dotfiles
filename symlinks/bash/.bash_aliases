@@ -23,3 +23,5 @@ alias killallkube="kubectl delete secret,statefulset,pod,svc,rs,deploy,ingress,s
 alias killallhelm="helm list -q | grep -v sumo | xargs helm delete --purge"
 
 alias tardis="ssh pi@tardis.local"
+
+alias ls='ls -G'
