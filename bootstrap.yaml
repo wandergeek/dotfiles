@@ -6,6 +6,14 @@ casks:
 - iterm2
 - divvy
 - google-chrome
+- evernote
+- slack
+- docker
+- gitkraken
+- kaleidoscope
+
 
 formulas:
 - chtf
+- docker-completion
+- awscli
