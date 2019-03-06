@@ -1,4 +1,11 @@
 casks:
 - dashlane
+- spotify
+- visual-studio-code
+- alfred
+- iterm2
+- divvy
+- google-chrome
 
-
+formulas:
+- chtf
