@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Running OSX postinstall"
+
 ###############################################################################
 # OS settings                                                                 #
 ###############################################################################
@@ -21,3 +23,5 @@ defaults write com.apple.dock wvous-tr-modifier -int 0
 # Privacy: don’t send search queries to Apple
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+git config --global core.excludesfile ~/.gitignore_global

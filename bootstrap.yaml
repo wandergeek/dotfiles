@@ -11,6 +11,7 @@ casks:
 - docker
 - gitkraken
 - kaleidoscope
+- font-source-code-pro
 
 formulas:
 - httpie
@@ -21,5 +22,12 @@ formulas:
 - git
 - dkanejs/aws-session-manager-plugin/aws-session-manager-plugin
 
+taps:
+  - homebrew/cask-fonts
+
 symlinks:
   bash/.*: "~"
+  git/.*: "~"
+  
+after-scripts:
+- ./scripts/osx
