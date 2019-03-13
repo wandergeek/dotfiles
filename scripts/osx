@@ -25,3 +25,11 @@ defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
 git config --global core.excludesfile ~/.gitignore_global
+
+source "/usr/local/share/chtf/chtf.sh"
+chtf 0.11.6
+
+kubectl completion bash > $(brew --prefix)/etc/bash_completion.d/kubectl
+helm completion bash > $(brew --prefix)/etc/bash_completion.d/helm
+
+git clone https://github.com/rupa/z ~/.cider/z/

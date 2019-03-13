@@ -12,6 +12,10 @@ casks:
 - gitkraken
 - kaleidoscope
 - font-source-code-pro
+- java
+- osxfuse
+
+
 
 formulas:
 - httpie
@@ -21,6 +25,11 @@ formulas:
 - bash-completion
 - git
 - dkanejs/aws-session-manager-plugin/aws-session-manager-plugin
+- kubernetes-helm
+- yleisradio/terraforms/chtf
+- tldr
+- watch
+- datawire/blackbird/telepresence
 
 taps:
   - homebrew/cask-fonts
