@@ -14,11 +14,17 @@ casks:
 - font-source-code-pro
 - java
 - osxfuse
+- tunnelblick
+- burp-suite
+- go2shell
 
 
 
 formulas:
+- bat
+- jq
 - httpie
+- hub
 - chtf
 - docker-completion
 - awscli
@@ -30,6 +36,7 @@ formulas:
 - tldr
 - watch
 - datawire/blackbird/telepresence
+- wget
 
 taps:
   - homebrew/cask-fonts

@@ -25,3 +25,12 @@ alias killallhelm="helm list -q | grep -v sumo | xargs helm delete --purge"
 alias tardis="ssh pi@tardis.local"
 
 alias ls='ls -G'
+
+alias pd="ping 1.1.1.1"
+alias pg="ping google.com"
+
+alias goodnight="aws autoscaling set-desired-capacity --auto-scaling-group-name ega-nodes-dev-NodeGroup-1WNK70Z7Q3QHA --desired-capacity 0"
+alias goodmorning="aws autoscaling set-desired-capacity --auto-scaling-group-name ega-nodes-dev-NodeGroup-1WNK70Z7Q3QHA --desired-capacity 3"
+
+alias ocat=cat
+alias cat=bat

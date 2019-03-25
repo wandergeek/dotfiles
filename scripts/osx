@@ -33,3 +33,5 @@ kubectl completion bash > $(brew --prefix)/etc/bash_completion.d/kubectl
 helm completion bash > $(brew --prefix)/etc/bash_completion.d/helm
 
 git clone https://github.com/rupa/z ~/.cider/z/
+
+pip install awslogs
