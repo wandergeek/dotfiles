@@ -1,0 +1,3 @@
+#!/bin/bash
+
+awslogs get -w /aws/batch/job $(awslogs streams /aws/batch/job)

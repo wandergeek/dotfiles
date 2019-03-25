@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cur_branch=$(git branch | grep \* | cut -d ' ' -f2)
+git pull --rebase origin $cur_branch

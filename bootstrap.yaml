@@ -44,6 +44,7 @@ taps:
 symlinks:
   bash/.*: "~"
   git/.*: "~"
+  bin: "~"
   
 after-scripts:
-- ./scripts/osx
+- ./scripts/osx-postinstall
