@@ -21,6 +21,9 @@ casks:
 
 
 formulas:
+- gettext
+- ngrep
+- speedtest-cli
 - bat
 - jq
 - httpie

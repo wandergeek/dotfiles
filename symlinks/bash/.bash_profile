@@ -17,3 +17,6 @@ export HELM_HOST=:44134
 
 HISTFILESIZE=1000000
 HISTSIZE=1000000
+
+source "/usr/local/share/chtf/chtf.sh"
+chtf 0.11.11

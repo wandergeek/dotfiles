@@ -34,3 +34,5 @@ alias goodmorning="aws autoscaling set-desired-capacity --auto-scaling-group-nam
 
 alias ocat=cat
 alias cat=bat
+
+alias serve="python -m SimpleHTTPServer"
