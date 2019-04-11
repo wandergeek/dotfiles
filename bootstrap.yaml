@@ -21,6 +21,7 @@ casks:
 
 
 formulas:
+- go
 - gettext
 - ngrep
 - speedtest-cli

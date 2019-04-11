@@ -20,3 +20,10 @@ HISTSIZE=1000000
 
 source "/usr/local/share/chtf/chtf.sh"
 chtf 0.11.11
+
+#Go
+export GOPATH="${HOME}/.go"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+
+
